@@ -1,0 +1,16 @@
+* { margin:0; padding:0; box-sizing:border-box; font-family: Arial, sans-serif; }
+body { background:#0f0f0f; color:#fff; text-align:center; }
+header { background: linear-gradient(135deg, #ffcc00, #ff6600); color:#000; padding:30px 15px; }
+header h1 { font-size:28px; }
+header p { margin-top:5px; font-weight:bold; }
+.container { max-width:500px; margin:20px auto; padding:0 15px; }
+.box { background:#1e1e1e; border:1px solid #333; border-radius:15px; padding:20px; margin-bottom:20px; }
+.box h2 { color:#ffcc00; margin-bottom:15px; }
+.leader { background:#2a2a2a; padding:10px; border-radius:10px; margin-bottom:10px; }
+.member { color:#ffcc00; margin-top:10px; font-weight:bold; }
+.rules { text-align:left; line-height:1.6; font-size:15px; }
+form { text-align:left; }
+label { display:block; margin:12px 0 5px; font-weight:bold; }
+input { width:100%; padding:12px; border:none; border-radius:8px; background:#2a2a2a; color:#fff; }
+button { width:100%; margin-top:20px; padding:14px; background:#ffcc00; border:none; border-radius:10px; font-size:16px; font-weight:bold; cursor:pointer; }
+footer { padding:20px; color:#888; font-size:13px; }
