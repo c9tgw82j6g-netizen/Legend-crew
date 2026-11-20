@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>× THE LEGEND CREW 🥷🏻⚡</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>× 𝐓𝐇𝐄 𝐋𝐄𝐆𝐄𝐍𝐃 𝐂𝐑𝐄𝐖 🥷🏻⚡</h1>
+  <p>Ninja Vibes | Quotes & Legends</p>
+  <p>Leaders Doop & Oshuz</p>
+</header>
+
+<div class="container">
+
+  <div class="box">
+    <h2>👑 OUR TEAM</h2>
+    <div class="leader"><small>LEADERS</small><br><strong>DOOP & OSHUZZ</strong></div>
+    <div class="leader"><small>CO - LEADER</small><br><strong>NIKO</strong></div>
+    <div class="leader"><small>ADMIN</small><br><strong>SUWA</strong></div>
+    <div class="member">✨ Welcome To Our Family ✨</div>
+  </div>
+
+  <div class="box">
+    <h2>📜 RULES - නීති</h2>
+    <div class="rules">
+      1. අපේ විදිහට නම හදන්න ඕනෙ සතියක් ඇතුලත.<br><br>
+      2. Squad එකේ නම bio එකට දාන්න ඕනේ.<br><br>
+      3. යාලුවෝ නෙමෙ සහෝදරයො වගේ ඉන්න ඕනේ squad එක ඇතුලෙ.<br><br>
+      4. වෙන squad වල ඉන්න බෑ.<br><br>
+      5. වෙන squad එක්ක වලි දාගන්න බෑ.<br><br>
+      6. මොකක්ම හරි ප්‍රශ්නයක් උනොත් SUWA quotes adminwa contact කරගන්න.
+    </div>
+  </div>
+
+  <div class="box">
+    <h2>💛 JOIN US</h2>
+    <form onsubmit="sendToWhatsApp(event)">
+      <label>නම</label>
+      <input type="text" id="name" placeholder="ඔයාගේ නම" required>
+      <label>වයස</label>
+      <input type="number" id="age" placeholder="ඔයාගේ වයස" required>
+      <label>ලගම නගරය</label>
+      <input type="text" id="city" placeholder="උදා: Colombo, Kandy, Galle" required>
+      <label>පේජ් එකේ User Name එක</label>
+      <input type="text" id="username" placeholder="@your_username" required>
+      <button type="submit">JOIN NOW</button>
+    </form>
+  </div>
+
+</div>
+
+<footer>© 2026 × THE LEGEND CREW | Leaders Doop & Oshuz</footer>
+
+<script>
+function sendToWhatsApp(e){
+  e.preventDefault();
+  let myNumber = "94787800255";
+  let name = document.getElementById("name").value;
+  let age = document.getElementById("age").value;
+  let city = document.getElementById("city").value;
+  let username = document.getElementById("username").value;
+  let message = "🥷🏻 *NEW JOIN REQUEST - THE LEGEND CREW* ⚡%0A%0A" +
+                "👤 *නම:* " + name + "%0A" +
+                "🎂 *වයස:* " + age + "%0A" +
+                "📍 *ලගම නගරය:* " + city + "%0A" +
+                "🎵 *Page Username:* " + username;
+  window.open("https://wa.me/" + myNumber + "?text=" + message, "_blank");
+}
+</script>
+
+</body>
+</html>
+
+Meke mage nb eka add welada thiyenne
